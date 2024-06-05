@@ -10,7 +10,7 @@ export const Chatbot = () => {
 		const updatedMessages = [...messages, newMessage];
 		setMessages(updatedMessages);
 
-		const response = await axios.post("https://gpt-backend-jkhm.onrender.com/chat", {
+		const response = await axios.post("https://gpt-backend-703y.onrender.com/chat", {
 			messages: updatedMessages,
 			model: "gpt-3.5-turbo",
 		});
